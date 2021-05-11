@@ -1,4 +1,4 @@
-# Academy
+# Next Boilerplate
 
 ## What is inside?
 
@@ -15,11 +15,22 @@ This project uses lot of stuff as:
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
 
 ```bash
-npm run dev
-# or
+git clone --depth=1 --single-branch --branch main https://github.com/danilomartinelli/next-boilerplate.git <project_name>
+```
+
+Install dependencies:
+
+```bash
+cd <project_name>
+yarn
+```
+
+Then, run the development server:
+
+```bash
 yarn dev
 ```
 
@@ -44,3 +55,11 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## How To
+
+Changing the main remote repository's URL
+
+1. Open Terminal.
+2. Change the current working directory to your local project.
+3. ```bash git remote set-url origin https://github.com/USERNAME/REPOSITORY.git```
